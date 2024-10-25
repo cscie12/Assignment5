@@ -1,0 +1,75 @@
+body{
+    background-color: #E0E0E0;
+    font-size: 1.5rem;
+}
+
+h1{
+    margin: 0;
+    padding-left: 2rem;
+    font-size: 4rem;
+}
+
+
+h2{
+    font-size: 2.5rem;
+    padding: 0rem;
+    padding-bottom: 1rem;
+    margin: 0; 
+    text-align: center;
+}
+
+h2.fruit{
+    font-size: 2.5rem;
+    padding: 0rem;
+    padding-bottom: 1rem;
+    margin: 0; 
+    text-align: left;
+}
+
+article{
+    background-color: white;
+    padding: 1rem;
+    margin: 4rem;
+}
+
+article img {
+    width: 100%;          
+    height: auto;       
+    object-fit: contain; 
+}
+
+footer{
+    border-top: black;
+    border-top-style: solid;
+}
+
+footer ul li a,
+footer ul li a:visited,
+footer ul li a:hover,
+footer ul li a:active
+{
+    color: black;
+}
+
+@media (min-width: 748px) {
+    div.flex-container{
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    div.flex-container article{
+        flex-basis: 30%;
+        padding: 1rem;
+        margin: 2rem;
+    }
+    
+    footer{
+        display: flex;
+        margin: 4rem;
+    }
+
+    footer nav{
+        flex-wrap: wrap;
+    }
+}
